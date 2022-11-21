@@ -1,0 +1,17 @@
+1. Hello, world! Ensure html form meets minimal standsards                <!DOCTYPE html><html><body>
+
+
+
+1. 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>4 Hello, Worlds! by javascript</h2>
+
+<script>alert("Hello, World!");</script>
+<script>document.write("Hello, World!");</script>
+<p id="demo">JavaScript can change HTML content.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello, World!"'>"Hello, World! CLICK ME"</button>
+</body>
+</html>
