@@ -1,5 +1,6 @@
 1. Hello, world! Ensure html form meets minimal standsards                <!DOCTYPE html><html><body>
-
+2. Same but can we host it in a file?
+3. Comments
 
 
 1. 
@@ -15,3 +16,20 @@
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello, World!"'>"Hello, World! CLICK ME"</button>
 </body>
 </html>
+
+
+2.
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>4 Hello, Worlds! by javascript</h2>
+<script src="helloworld.js"></script>
+</body>
+</html>
+
+3.
+// single line comment 
+/* Hello, multi
+ World!   line
+ */ 
