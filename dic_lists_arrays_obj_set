@@ -50,6 +50,8 @@ letters.forEach (function(value) {
   text += value; // you could insert html here for formatting like a <br>
 })
 
-document.getElementById("demo").innerHTML = text;  Basically
+document.getElementById("demo").innerHTML = text;  Basically converting to text variable and printing out
+document.write(text); Call on text it prints as expected  abc
+document.write(letters); Call on the object it prints  [object Set]
 </script>
 
