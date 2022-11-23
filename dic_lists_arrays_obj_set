@@ -2,6 +2,7 @@
 2. Objects
 3. More advanced objects
 4.Sets  One unique item for whole set
+4.a Print the set to screen
 
 
 1.
@@ -26,6 +27,7 @@ const person = {
 4. Sets will only have one unique item adding duplicated will not be added. 
 const letters = new Set(["a","b","c"]);
 letters.add("a");
+document.getElementById("demo").innerHTML = letters.size;
 new Set()	Creates a new Set
 add()	Adds a new element to the Set
 delete()	Removes an element from a Set
@@ -35,3 +37,19 @@ forEach()	Invokes a callback for each element
 values()	Returns an Iterator with all the values in a Set
 keys()	Same as values()
 entries()	Returns an Iterator with the [value,value] pairs from a Set
+
+4.a
+
+<script>
+// Create a Set
+const letters = new Set(["a","b","c"]);
+
+// List all Elements
+let text = "";
+letters.forEach (function(value) {
+  text += value; // you could insert html here for formatting like a <br>
+})
+
+document.getElementById("demo").innerHTML = text;  Basically
+</script>
+
